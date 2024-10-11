@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --foreground-rgb: 255, 255, 255; */
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("/fonts/MyriadPro/MyriadPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("/fonts/MyriadPro/MyriadPro-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proximaNova";
+  src: url("/fonts/proxima/ProximaNova-Bold.ttf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.proximanova {
+  font-family: "proximaNova";
+  font-weight: bold;
+  color: white;
+  text-shadow: 
+  -3px 0px 0px black,  
+  0px -3px 0px black,
+  3px 0px 0px black,
+  0px 3px 0px black,
+  -2px -2px 1px black,
+  2px -2px 1px black,
+ -2px 2px 1px black,
+ 2px 2px 1px black;
+  letter-spacing: 0.1rem;
+}
+
+.myriadpro {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: bold;
+}
+
+.myriadpro_regular {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: normal;
+}
+
+
+
+input::placeholder {
+  color: black; /* Set the desired placeholder color */
+  opacity: 1; /* Optional: control the opacity of the placeholder */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Remove default appearance */
+  margin: 0; /* Remove margin */
+}
+
+.navitems{
+
+
+  font-family: Jaro;
+  -webkit-font-family: Jaro;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width: 991px){
+  .navlinks{
+    display:none;
+  }
+}
+@media (min-width: 1024px) {
+  .home {
+    background-image: url("/bg/18.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 800px;
+
+  }
+}
+@media (max-width: 1024px) {
+  .home {
+    background-image: url("/bg/18.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 700px;
+  
+  }
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .about_shadow {
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black,
+      1px -1px 0 black;
+  }
+}
+@media (min-width: 1024px) {
+  .about_shadow {
+    text-shadow: 1.5px 1.5px 0 black, -1.5px -1.5px 0 black,
+      -1.5px 1.5px 0 black, 1.5px -1.5px 0 black;
+  }
+}
+@media (max-width: 522px) {
+  .hiddenimg {
+    display: block;
+  }
+  .converttobackground {
+    width: 100%;
+    height: 500px;
+    background-image: url("/bg/Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 130% 100%;
+  }
+}
+
+@media (max-width: 522px) {
+  .hiddenimg {
+    display: none;
+  }
+  .convertrightbackground {
+    width: 100%;
+    height: 500px;
+    background-image: url("/bg/content.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 130% 100%;
+  }
+}
+
+@media (min-width: 522px) {
+  .hiddenimg {
+    display: block;
+  }
+  .converttobackground {
+  }
+}
+
+/* .dress1 {
+  background-image: url("/bg/dress1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+.about_token {
+  background-image: url("/bg/about_token.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.faq {
+  background-image: url("/bg/faq.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 100%;
+}
