@@ -25,6 +25,10 @@ body {
   background-size: contain;
 }
 
+.image-center{
+  background-image: url('/other/');
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
