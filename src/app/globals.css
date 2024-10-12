@@ -26,6 +26,12 @@ body {
   overflow-x: hidden;
 }
 
+.zapChair {
+  background-image: url("/other/ZAP CHAIR.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px; /* set the height of the div */
+}
 .image-center{
   background-image: url('/other/BASE.png');
   background-size: contain;
