@@ -15,10 +15,6 @@ const Home = () => {
     <>
       <div id="Home" className=" h-[1000px] relative z-10 home">
         
-        <img
-          src="/bg/rabbit.png"
-          className="lg:hidden absolute top-[900px] "
-        />
        
         <div className="absolute flex flex-wrap  top-[3.5%] left-[23%] right-[10%] gap-[1.5vw] max-[1700px]:hidden  ">
           <NavButton label="Stacking" />
