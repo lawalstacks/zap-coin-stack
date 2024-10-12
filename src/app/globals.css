@@ -22,12 +22,17 @@ body {
   background-image: url("/other/76.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: center;
+  background-size: cover;
   overflow-x: hidden;
 }
 
 .image-center{
-  background-image: url('/other/');
+  background-image: url('/other/BASE.png');
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  z-index: 200;
 }
 
 @layer utilities {
@@ -43,6 +48,12 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Jaro";
+  src: url("/fonts/static/Jaro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "Myriad Pro";
   src: url("/fonts/MyriadPro/MyriadPro-Bold.otf") format("opentype");
@@ -97,10 +108,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .navitems{
-  font-family: Jaro, 'Liberation Mono', serif;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 12px;
 
 }
 

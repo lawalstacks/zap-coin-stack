@@ -19,7 +19,7 @@ export const NavButton: React.FC<Type> = ({ label }) => {
   return (
     <>
       <button
-        className={`font-[Thomas,cursive] text-[28px] max-[1700px]:text-[24px] text-black font-bold hover:text-lime-500`}
+        className={`font-[Jaro] text-[16px] max-[1700px]:text-[24px] text-black font-bold hover:text-lime-500`}
         onClick={() => {
           scrollToSection(label);
           setShow(false);
