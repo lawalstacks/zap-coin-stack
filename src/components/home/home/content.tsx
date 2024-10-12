@@ -7,8 +7,7 @@ export const Content = () => {
         <div className="absolute rounded-xl bg-[#F3C035]  inner-border-3 inner-border-[#EFB746] top-5 left-5"><img src={`/title/ZAPPY BRINGS.png`} /></div>
         </div>
       </div>
-      <div className="">
-      <img src={`/other/23.png`} width={500} className="mt-[400px]"/>
+      <div className="zapChair mt-[400px]">
     <img src={`/animations/ZAP.gif`} width={600} className="absolute bottom-40"/>
   
       </div>
