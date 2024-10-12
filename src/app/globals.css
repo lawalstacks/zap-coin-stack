@@ -30,7 +30,10 @@ body {
   background-image: url("/other/23.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px; /* set the height of the div */
+  background-position: center center;
+  height: 400px;
+  position: relative;
+  z-index: 200/* set the height of the div */
 }
 .image-center{
   background-image: url('/other/BASE.png');
