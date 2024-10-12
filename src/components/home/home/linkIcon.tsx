@@ -14,9 +14,8 @@ export const LinkIcon = () => {
       <img src={`/other/85.png`} className=" absolute h-28  -left-10 z-30 bottom-0"/>
       <img src={`/other/ZAP NAME.png`} className=" z-30 absolute right-6 bottom-0"/>
     
-      
       </div>
-         <div className="flex gap-2 -mt-5 items-center">
+         <div className="font-[Jaro] flex -mt-5 items-center">
           <NavButton label="ABOUT"/>
           <NavButton label="HOW TO BUY" />
           <NavButton label="TOKENOMICS" />

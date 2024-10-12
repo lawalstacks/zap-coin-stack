@@ -29,7 +29,7 @@ export const HiddenBar = () => {
           <NavButton label="FWB" />
           <NavButton label="FAQs" />
           <NavButton label="White Paper" />
-          <div className="flex gap-5">
+          <div className="flex gap-5 md:hidden">
             <LinkIcon />
           </div>
         </div>

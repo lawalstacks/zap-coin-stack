@@ -10,7 +10,7 @@ import { About_token } from "@/components/home/about_token";
 const Homepage = () => {
   return (
     <>
-    <div className="absolute top-0 bottom-0 right-0 left-0 bg-[#F3C035] bg-opacity-60 z-10"></div>
+    {/*<div className="absolute top-0 bottom-0 right-0 left-0 bg-[#F3C035] bg-opacity-60 z-10"></div>*/}
     
     <div className="relative">
     

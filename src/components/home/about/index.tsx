@@ -1,7 +1,16 @@
 export const About = () => {
   return (
     <>
-      <div className="pt-[10%] px-[5%] sm:px-[6%] relative z-10 max-[90%]:">
+      <div className="grid-cols-3 relative z-20">
+          <div className="flex flex-col">
+              <img alt={`zap`} src={'/animations/'}/>
+              <img alt={`zap standing`} height={100} src={`/animations/ZAP STANDING.gif `}/>
+          </div>
+          <div>
+              
+          </div>
+      </div>
+        {/*<div className="pt-[10%] px-[5%] sm:px-[6%] relative z-10 max-[90%]:">
         <img
           src="/title/title4.png"
           className="sm:pl-[220px] pl-[50px] pt-[20px] pb-[100px] sm:w-[500px] w-[200px]"
@@ -30,7 +39,7 @@ export const About = () => {
             and without fees!
           </li>
         </ul>
-      </div>
+      </div>*/}
     </>
   );
 };

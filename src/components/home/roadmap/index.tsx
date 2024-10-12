@@ -1,13 +1,16 @@
 export const Roadmap = () => {
   return (
     <>
+    <div>
+      <img src={`/`}/>
+      </div>
       <div
         className="relative pt-[5rem] pb-[10rem] z-20"
-        style={{
-          backgroundImage: "url(/bg/roadmap.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "top",
-        }}
+        //style={{
+          //backgroundImage: "url(/bg/roadmap.jpg)",
+          //backgroundSize: "cover",
+          //backgroundPosition: "top",
+       // }}
       >
         <div
           id="Roadmap"
