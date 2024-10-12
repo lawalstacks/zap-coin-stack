@@ -1,13 +1,13 @@
 export const About = () => {
   return (
     <>
-      <div className="grid-cols-3 relative z-20">
+      <div className="flex relative z-20">
           <div className="flex flex-col">
               <img alt={`zap`} src={'/animations/'}/>
               <img alt={`zap standing`} height={100} src={`/animations/ZAP STANDING.gif `}/>
           </div>
           <div>
-              
+              <img src={`/other/46.png`}/>
           </div>
       </div>
         {/*<div className="pt-[10%] px-[5%] sm:px-[6%] relative z-10 max-[90%]:">
