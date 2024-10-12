@@ -21,8 +21,9 @@
 body {
   background-image: url("/other/76.png");
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
+  background-position: center;
+  background-size: center;
+  overflow-x: hidden;
 }
 
 @layer utilities {
