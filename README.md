@@ -1,3 +1,6 @@
+Zap Coin Stack is a decentralized application (DApp) built on the Solana blockchain that allows users to interact with various Solana-based wallets, perform transactions, and utilize Solana tokens. The application provides an intuitive interface for seamless wallet connection and token interactions.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
